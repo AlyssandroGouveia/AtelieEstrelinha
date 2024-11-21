@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Cute' ;
+    src: url('fontes/Cute Notes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* FONTES E PALETAS DE CORES DO SITE PARA USAR COMO VARIAVEIS
+:root{
+    --cor1: #FCE758;
+    --cor2: #F1AABC;
+    --cor3: #C592CB;
+    --cor4: #84D6D0;
+    --corcard1: hsla(52, 96%, 67%, 0.600);
+    --corcard2: hsl(345, 72%, 81%, 0.600);
+    --corcard3: hsl(294, 35%, 68%, 0.600);
+    --corcard4: hsl(176, 50%, 68%, 0.600);
+
+    --fonte-padrao:serif;
+    --fonte-destaque: Cute;
+    
+    para usar é Ex: color:var(--cor1);
+}
+*/    
+body{
+    background-image: linear-gradient(to right, #FCE758, #F1AABC, #C592CB, #84D6D0) ;
+    background-attachment: fixed;
+}
+header > h1{
+    font-family: 'Cute';
+    font-size: 2.8em;
+    text-align: center;
+}
+header > h2{
+    font-family: 'Cute';
+    font-size: 1.4em;
+    text-align: center;
+}
+article{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.295);
+    min-width: 320px;
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;    
+}
+p#redes{
+    text-align: center;
+}
+article p{
+    background-image:linear-gradient(to right, hsla(52, 96%, 67%, 0.700), hsl(345, 72%, 81%, 0.700), hsl(294, 35%, 68%, 0.700), hsl(176, 50%, 68%, 0.700) ) ;
+    font-family: 'Cute';
+    font-size: 2.2em;
+    text-align: center;
+    padding: 10px;
+    margin: -10px -10px 35px -10px ;
+    border-radius: 10px 10px 0px 0px;
+}
+p.princ2{
+    background-image:linear-gradient(to right, hsla(52, 96%, 67%, 0.700), hsl(345, 72%, 81%, 0.700), hsl(294, 35%, 68%, 0.700), hsl(176, 50%, 68%, 0.700) ) ;
+    font-family: 'Cute';
+    font-size: 2.2em;
+    text-align: center;
+    padding: 10px;
+    margin: -10px -10px 35px -10px ;
+    border-radius: 10px 10px 0px 0px;
+}
+.soci:hover{
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin: auto;
+}
+.vestbord:hover{
+    border-color: hsla(0, 0%, 1%, 0.050);
+    border-style: solid;
+    margin: auto;
+}
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+.slider-content input{
+    display: none;
+}
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box img{
+    width: 100%;
+    min-width: 333px;
+    min-height: 333px;
+    overflow: hidden;
+}
+.card:nth-child(1){
+    background-color: hsla(52, 96%, 67%, 0.400);
+}
+.card:nth-child(2){
+    background-color: hsla(52, 96%, 67%, 0.400);
+}
+.card:nth-child(3){
+    background-color: hsl(345, 72%, 81%, 0.400);
+}
+.card:nth-child(4){
+    background-color: hsl(345, 72%, 81%, 0.400);
+}
+.card:nth-child(5){
+    background-color: hsl(294, 35%, 68%, 0.400);
+}
+.card:nth-child(6){
+    background-color: hsl(294, 35%, 68%, 0.400);
+}
+.card:nth-child(7){
+    background-color: hsl(176, 50%, 68%, 0.400);
+}
+.card:nth-child(8){
+    background-color: hsl(176, 50%, 68%, 0.400);
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-manual .manual-btn:hover{
+    background-color: #84D6D0;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3, #radio4:checked ~ .nav-auto .auto-btn4, #radio5:checked ~ .nav-auto .auto-btn5, #radio6:checked ~ .nav-auto .auto-btn6, #radio7:checked ~ .nav-auto .auto-btn7, #radio8:checked ~ .nav-auto .auto-btn8{
+    background-color: #84D6D0;
+}
+#radio1:checked ~ .first{
+    margin-left: 0%;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+#radio7:checked ~ .first{
+    margin-left: -150%;
+}
+#radio8:checked ~ .first{
+    margin-left: -175%;
+}
+.rodape{
+    text-align: center;
+    padding: 30px;
+}
+.rodape a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.rodape a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.692);
+}

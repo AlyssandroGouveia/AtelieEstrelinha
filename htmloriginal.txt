@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagensatelie/gostoudessa.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleoficial.css">
+    <title>Ateliê Estrelinha</title>
+    <script src="scriptsite.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>ATELIE ESTRELINHA</h1>
+        <h2>VESTIMOS COM AMOR O SEU MAIOR AMOR</h2>
+        <p id="redes">
+            <a href="https://www.instagram.com/atelieestelagouveia/" target="_blank" rel="external" ><img src="imagens/instagramlogo37x37.png" alt="Logo Instagram" class="soci"></a>
+            <a href="https://api.whatsapp.com/send?phone=5582981286571&text=Quero%20saber%20mais%20sobre%20o%20Ateli%C3%AA." target="_blank" rel="external"><img src="imagens/whatslogo50x501.png" alt="Logo Whatsapp" class="soci"></a>
+            <a href=""target="_blank" rel="external"><img src="imagens/logoemail35x35.png" alt="Logo Email" class="soci"></a>
+        </p>
+    </header>
+    <main>
+        <article>
+            <p class="princ1">ULTIMOS PRODUZIDOS
+                <div class="galeria">                    
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><picture><source media="(max-width: 400px)" srcset=""><img src="penuvestido.jpeg" alt="vestido" class="vestbord"></picture></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido" class="vestbord"></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="penuvestido.jpeg" alt="vestido"class="vestbord"><a></a>
+                    </div>                    
+                </div>
+            </p>
+        </article>
+        <article>
+            <p class="princ2">DISPONIVEIS PARA VENDA
+                <div class="galeria">
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido" class="vestbord"></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido" class="vestbord"></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                    <div class="card">
+                        <a href="" target="_blank" rel="external"><img src="" alt="vestido"class="vestbord"><a></a>
+                    </div>
+                </div>
+            </p>
+        </article>
+        <script> src= "scriptsite.js"</script>
+    </main>
+    <footer class="rodape">
+        Desenvolvido por<a href="https://www.linkedin.com/in/alyssandro-gouveia-13bb8128a/" target="_blank" rel="external"> Alyssandro Gouveia<img src="imagens/logo linkedin30x30.png" alt="linkedin"></a>
+    </footer>
+</body>
+</html>
