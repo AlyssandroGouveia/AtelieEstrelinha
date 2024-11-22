@@ -46,10 +46,11 @@ article{
     margin: auto;
     margin-bottom: 10px;    
 }
+
 p#redes{
     text-align: center;
 }
-article p{
+p.princ1{
     background-image:linear-gradient(to right, hsla(52, 96%, 67%, 0.700), hsl(345, 72%, 81%, 0.700), hsl(294, 35%, 68%, 0.700), hsl(176, 50%, 68%, 0.700) ) ;
     font-family: 'Cute';
     font-size: 2.2em;
@@ -77,34 +78,31 @@ p.princ2{
     border-style: solid;
     margin: auto;
 }
-section.slider{
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    padding: 0 !important;
-    overflow: hidden;
-}
-.slider-content{
-    width: 400%;
-    height: auto;
+
+.galeria{
     display: flex;
-    overflow: hidden;
+    gap: 3px;
+    overflow: auto;
 }
-.slider-content input{
-    display: none;
+.galeria::-webkit-scrollbar{
+    width: 1;
 }
-.slide-box{
-    width: 25%;
-    height: auto;
-    position: relative;
-    text-align: center;
+.card{
+    position: center;
+    left: 0px;
+    border-radius: 4px;
+    padding: 9px 9px 9px 9px;
+    min-height: 80px;
+    background-color: transparent;
+    transition: 0.5s;
+    flex: 0px;
+    margin: auto;
 }
 
-.slide-box img{
+div img{
     width: 100%;
     min-width: 333px;
     min-height: 333px;
-    overflow: hidden;
 }
 .card:nth-child(1){
     background-color: hsla(52, 96%, 67%, 0.400);
@@ -130,51 +128,10 @@ section.slider{
 .card:nth-child(8){
     background-color: hsl(176, 50%, 68%, 0.400);
 }
-.nav-manual, .nav-auto{
-    position: absolute;
-    width: 100%;    
-    display: flex;
-    justify-content: center;
-}
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 50%;
+.card:hover{
+    flex: 20px;
+    font-weight: bold;
     cursor: pointer;
-    transition: 0.5s;
-}
-.nav-manual .manual-btn:hover{
-    background-color: #84D6D0;
-}
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
-    margin-right: 10px;
-}
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3, #radio4:checked ~ .nav-auto .auto-btn4, #radio5:checked ~ .nav-auto .auto-btn5, #radio6:checked ~ .nav-auto .auto-btn6, #radio7:checked ~ .nav-auto .auto-btn7, #radio8:checked ~ .nav-auto .auto-btn8{
-    background-color: #84D6D0;
-}
-#radio1:checked ~ .first{
-    margin-left: 0%;
-}
-#radio2:checked ~ .first{
-    margin-left: -25%;
-}
-#radio3:checked ~ .first{
-    margin-left: -50%;
-}
-#radio4:checked ~ .first{
-    margin-left: -75%;
-}
-#radio5:checked ~ .first{
-    margin-left: -100%;
-}
-#radio6:checked ~ .first{
-    margin-left: -125%;
-}
-#radio7:checked ~ .first{
-    margin-left: -150%;
-}
-#radio8:checked ~ .first{
-    margin-left: -175%;
 }
 .rodape{
     text-align: center;
