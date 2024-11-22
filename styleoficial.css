@@ -40,7 +40,7 @@ article{
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.295);
-    min-width: 320px;
+    min-width: 310px;
     max-width: 1200px;
     padding: 10px;
     margin: auto;
@@ -101,8 +101,8 @@ p.princ2{
 
 div img{
     width: 100%;
-    min-width: 333px;
-    min-height: 333px;
+    min-width: 280px;
+    min-height: 280px;
 }
 .card:nth-child(1){
     background-color: hsla(52, 96%, 67%, 0.400);
